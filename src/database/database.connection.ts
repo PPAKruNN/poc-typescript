@@ -8,5 +8,6 @@ const config: ConnectionConfig = {
 };
 
 const db = new Pool(config);
+console.log("Successfull connection to DB");
 
 export { db };
