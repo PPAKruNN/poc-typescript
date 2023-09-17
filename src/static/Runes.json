@@ -1,0 +1,455 @@
+[
+  {
+    "name": "Dominação",
+    "id": 8100,
+    "key": "Domination",
+    "slots": [
+      [
+        {
+          "name": "Eletrocutar",
+          "id": 8112,
+          "key": "Electrocute",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/electrocute/electrocute.png"
+        },
+        {
+          "name": "Predador",
+          "id": 8124,
+          "key": "Predator",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/predator/predator.png"
+        },
+        {
+          "name": "Colheita Sombria",
+          "id": 8128,
+          "key": "DarkHarvest",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/darkharvest/darkharvest.png"
+        },
+        {
+          "name": "Chuva de Lâminas",
+          "id": 9923,
+          "key": "HailOfBlades",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/hailofblades/hailofblades.png"
+        }
+      ],
+      [
+        {
+          "name": "Golpe Desleal",
+          "id": 8126,
+          "key": "CheapShot",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/cheapshot/cheapshot.png"
+        },
+        {
+          "name": "Gosto de Sangue",
+          "id": 8139,
+          "key": "TasteOfBlood",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/tasteofblood/tasteofblood.png"
+        },
+        {
+          "name": "Impacto Repentino",
+          "id": 8143,
+          "key": "SuddenImpact",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/suddenimpact/suddenimpact.png"
+        }
+      ],
+      [
+        {
+          "name": "Sentinela Zumbi",
+          "id": 8136,
+          "key": "ZombieWard",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/zombieward/zombieward.png"
+        },
+        {
+          "name": "Poro Fantasma",
+          "id": 8120,
+          "key": "GhostPoro",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/ghostporo/ghostporo.png"
+        },
+        {
+          "name": "Globos Oculares",
+          "id": 8138,
+          "key": "EyeballCollection",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/eyeballcollection/eyeballcollection.png"
+        }
+      ],
+      [
+        {
+          "name": "Caçador de Tesouros",
+          "id": 8135,
+          "key": "TreasureHunter",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/treasurehunter/treasurehunter.png"
+        },
+        {
+          "name": "Caça Ardilosa",
+          "id": 8134,
+          "key": "IngeniousHunter",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/ingenioushunter/ingenioushunter.png"
+        },
+        {
+          "name": "Caça Incansável",
+          "id": 8105,
+          "key": "RelentlessHunter",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/relentlesshunter/relentlesshunter.png"
+        },
+        {
+          "name": "Caça Suprema",
+          "id": 8106,
+          "key": "UltimateHunter",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/domination/ultimatehunter/ultimatehunter.png"
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Inspiração",
+    "id": 8300,
+    "key": "Inspiration",
+    "slots": [
+      [
+        {
+          "name": "Aprimoramento Glacial",
+          "id": 8351,
+          "key": "GlacialAugment",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/glacialaugment/glacialaugment.png"
+        },
+        {
+          "name": "Livro de Feitiços Deslacrado",
+          "id": 8360,
+          "key": "UnsealedSpellbook",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/unsealedspellbook/unsealedspellbook.png"
+        },
+        {
+          "name": "Primeiro Ataque",
+          "id": 8369,
+          "key": "FirstStrike",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/firststrike/firststrike.png"
+        }
+      ],
+      [
+        {
+          "name": "Flashtração Hextec",
+          "id": 8306,
+          "key": "HextechFlashtraption",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/hextechflashtraption/hextechflashtraption.png"
+        },
+        {
+          "name": "Calçados Mágicos",
+          "id": 8304,
+          "key": "MagicalFootwear",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/magicalfootwear/magicalfootwear.png"
+        },
+        {
+          "name": "Sincronia Perfeita",
+          "id": 8313,
+          "key": "PerfectTiming",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/perfecttiming/perfecttiming.png"
+        }
+      ],
+      [
+        {
+          "name": "Mercado do Futuro",
+          "id": 8321,
+          "key": "FuturesMarket",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/futuresmarket/futuresmarket.png"
+        },
+        {
+          "name": "Pulverizador de Tropas",
+          "id": 8316,
+          "key": "MinionDematerializer",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/miniondematerializer/miniondematerializer.png"
+        },
+        {
+          "name": "Entrega de Biscoitos",
+          "id": 8345,
+          "key": "BiscuitDelivery",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/biscuitdelivery/biscuitdelivery.png"
+        }
+      ],
+      [
+        {
+          "name": "Perspicácia Cósmica",
+          "id": 8347,
+          "key": "CosmicInsight",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/cosmicinsight/cosmicinsight.png"
+        },
+        {
+          "name": "Velocidade de Aproximação",
+          "id": 8410,
+          "key": "ApproachVelocity",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/approachvelocity/approachvelocity.png"
+        },
+        {
+          "name": "Tônico de Distorção no Tempo",
+          "id": 8352,
+          "key": "TimeWarpTonic",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/inspiration/timewarptonic/timewarptonic.png"
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Precisão",
+    "id": 8000,
+    "key": "Precision",
+    "slots": [
+      [
+        {
+          "name": "Pressione o Ataque",
+          "id": 8005,
+          "key": "PressTheAttack",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/presstheattack/presstheattack.png"
+        },
+        {
+          "name": "Ritmo Fatal",
+          "id": 8008,
+          "key": "LethalTempo",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/lethaltempo/lethaltempo.png"
+        },
+        {
+          "name": "Agilidade nos Pés",
+          "id": 8021,
+          "key": "FleetFootwork",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/fleetfootwork/fleetfootwork.png"
+        },
+        {
+          "name": "Conquistador",
+          "id": 8010,
+          "key": "Conqueror",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/conqueror/conqueror.png"
+        }
+      ],
+      [
+        {
+          "name": "Cura Excessiva",
+          "id": 9101,
+          "key": "Overheal",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/overheal.png"
+        },
+        {
+          "name": "Triunfo",
+          "id": 9111,
+          "key": "Triumph",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/triumph.png"
+        },
+        {
+          "name": "Presença de Espírito",
+          "id": 8009,
+          "key": "PresenceOfMind",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/presenceofmind/presenceofmind.png"
+        }
+      ],
+      [
+        {
+          "name": "Lenda: Espontaneidade",
+          "id": 9104,
+          "key": "LegendAlacrity",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/legendalacrity/legendalacrity.png"
+        },
+        {
+          "name": "Lenda: Tenacidade",
+          "id": 9105,
+          "key": "LegendTenacity",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/legendtenacity/legendtenacity.png"
+        },
+        {
+          "name": "Lenda: Linhagem",
+          "id": 9103,
+          "key": "LegendBloodline",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/legendbloodline/legendbloodline.png"
+        }
+      ],
+      [
+        {
+          "name": "Golpe de Misericórdia",
+          "id": 8014,
+          "key": "CoupDeGrace",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/coupdegrace/coupdegrace.png"
+        },
+        {
+          "name": "Dilacerar",
+          "id": 8017,
+          "key": "CutDown",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/cutdown/cutdown.png"
+        },
+        {
+          "name": "Até a Morte",
+          "id": 8299,
+          "key": "LastStand",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/precision/laststand/laststand.png"
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Determinação",
+    "id": 8400,
+    "key": "Resolve",
+    "slots": [
+      [
+        {
+          "name": "Aperto dos Mortos-Vivos",
+          "id": 8437,
+          "key": "GraspOfTheUndying",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/graspoftheundying/graspoftheundying.png"
+        },
+        {
+          "name": "Pós-choque",
+          "id": 8439,
+          "key": "Aftershock",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/aftershock/aftershock.png"
+        },
+        {
+          "name": "Guardião",
+          "id": 8465,
+          "key": "Guardian",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/guardian/guardian.png"
+        }
+      ],
+      [
+        {
+          "name": "Demolir",
+          "id": 8446,
+          "key": "Demolish",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/demolish/demolish.png"
+        },
+        {
+          "name": "Fonte da Vida",
+          "id": 8463,
+          "key": "FontOfLife",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/fontoflife/fontoflife.png"
+        },
+        {
+          "name": "Golpe de Escudo",
+          "id": 8401,
+          "key": "ShieldBash",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/shieldbash/shieldbash.png"
+        }
+      ],
+      [
+        {
+          "name": "Condicionamento",
+          "id": 8429,
+          "key": "Conditioning",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/conditioning/conditioning.png"
+        },
+        {
+          "name": "Ventos Revigorantes",
+          "id": 8444,
+          "key": "SecondWind",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/secondwind/secondwind.png"
+        },
+        {
+          "name": "Osso Revestido",
+          "id": 8473,
+          "key": "BonePlating",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/boneplating/boneplating.png"
+        }
+      ],
+      [
+        {
+          "name": "Crescimento Excessivo",
+          "id": 8451,
+          "key": "Overgrowth",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/overgrowth/overgrowth.png"
+        },
+        {
+          "name": "Revitalizar",
+          "id": 8453,
+          "key": "Revitalize",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/revitalize/revitalize.png"
+        },
+        {
+          "name": "Inabalável",
+          "id": 8242,
+          "key": "Unflinching",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/resolve/unflinching/unflinching.png"
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Feitiçaria",
+    "id": 8200,
+    "key": "Sorcery",
+    "slots": [
+      [
+        {
+          "name": "Invocar Aery",
+          "id": 8214,
+          "key": "SummonAery",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/summonaery/summonaery.png"
+        },
+        {
+          "name": "Cometa Arcano",
+          "id": 8229,
+          "key": "ArcaneComet",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/arcanecomet/arcanecomet.png"
+        },
+        {
+          "name": "Ímpeto Gradual",
+          "id": 8230,
+          "key": "PhaseRush",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/phaserush/phaserush.png"
+        }
+      ],
+      [
+        {
+          "name": "Orbe Anulador",
+          "id": 8224,
+          "key": "NullifyingOrb",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/nullifyingorb/nullifyingorb.png"
+        },
+        {
+          "name": "Faixa de Fluxo de Mana",
+          "id": 8226,
+          "key": "ManaflowBand",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/manaflowband/manaflowband.png"
+        },
+        {
+          "name": "Manto de Nimbus",
+          "id": 8275,
+          "key": "NimbusCloak",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/nimbuscloak/nimbuscloak.png"
+        }
+      ],
+      [
+        {
+          "name": "Transcendência",
+          "id": 8210,
+          "key": "Transcendence",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/transcendence/transcendence.png"
+        },
+        {
+          "name": "Celeridade",
+          "id": 8234,
+          "key": "Celerity",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/celerity/celerity.png"
+        },
+        {
+          "name": "Foco Absoluto",
+          "id": 8233,
+          "key": "AbsoluteFocus",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/absolutefocus/absolutefocus.png"
+        }
+      ],
+      [
+        {
+          "name": "Chamuscar",
+          "id": 8237,
+          "key": "Scorch",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/scorch/scorch.png"
+        },
+        {
+          "name": "Caminhar Sobre as Águas",
+          "id": 8232,
+          "key": "Waterwalking",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/waterwalking/waterwalking.png"
+        },
+        {
+          "name": "Tempestade Crescente",
+          "id": 8236,
+          "key": "GatheringStorm",
+          "url": "https://raw.communitydragon.org/latest/game/assets/perks/styles/sorcery/gatheringstorm/gatheringstorm.png"
+        }
+      ]
+    ]
+  }
+]
