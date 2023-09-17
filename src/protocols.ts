@@ -65,6 +65,10 @@ type Build = {
   Rune: RuneSet;
 };
 
+type BuildRouteParams = {
+  id: string;
+};
+
 export {
   ApiError,
   ItemsData,
@@ -76,4 +80,5 @@ export {
   Build,
   ItemSet,
   RuneSet,
+  BuildRouteParams,
 };

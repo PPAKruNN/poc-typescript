@@ -71,13 +71,19 @@ async function genBuild(): Promise<Build> {
 
 async function create(): Promise<Number> {
   const build = await genBuild();
-  const serializedBuild = JSON.stringify(build);
+  const serializedBuild = JSON.stringify(build, null, 2);
 
   const id = await BuildsRepository.create(serializedBuild);
   return id;
 }
 
+async function read(id: number): Promise<Build> {
+  const build = await BuildsRepository.read(id);
+  return build;
+}
+
 export const BuildsService = {
   create,
   genBuild,
+  read,
 };

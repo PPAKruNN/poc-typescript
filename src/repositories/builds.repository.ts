@@ -14,6 +14,17 @@ async function create(serializedBuild: string) {
   return result.rows[0];
 }
 
+async function read(id: number): Promise<Build> {
+  const result = await db.query<Build>(
+    `SELECT data FROM builds WHERE id = $1`,
+    [id]
+  );
+
+  // if (result.rowCount === 0) throw error;
+  return result.rows[0];
+}
+
 export const BuildsRepository = {
   create,
+  read,
 };
