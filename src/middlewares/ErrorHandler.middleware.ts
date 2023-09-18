@@ -1,11 +1,18 @@
-import { Request, Response } from "express";
+import { NextFunction, Request, Response } from "express";
 import { ApiError } from "protocols";
 
-function ErrorHandler(error_: any, res: Response) {
-  // n deu pra evitar o ANY, express rejeitou TODAS AS tentativas.
-  const error = error_ as ApiError;
+// Pro error handler funcionar, você precisa que os parametros
+// atendam ao ErrorRequestHandler
+function ErrorHandler(
+  err: any,
+  _req: Request,
+  res: Response,
+  _next: NextFunction
+): any {
+  const error = err as ApiError;
+  console.log(error);
 
-  if (!error.httpCode) return res.status(500).send(error.message);
+  if (!error.httpCode) return res.status(500).send(error);
 
   res.status(error.httpCode).send(error.message);
 }

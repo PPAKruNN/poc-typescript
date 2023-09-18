@@ -2,6 +2,8 @@ import { RandomNum } from "../utils/RandomNum";
 import { StaticData } from "../utils/StaticData";
 import { Build, ItemSet, RuneSet } from "../protocols";
 import { BuildsRepository } from "../repositories/builds.repository";
+import { Errors } from "../Errors/errors";
+import httpStatus from "http-status";
 
 async function genBuild(): Promise<Build> {
   const data = StaticData.data;
@@ -38,7 +40,6 @@ async function genBuild(): Promise<Build> {
   const primaryDomain = data.Runes[domainsRand[0]];
   const secDomain = data.Runes[domainsRand[1]];
 
-  console.log(primaryDomain);
   const keystoneRand = RandomNum(primaryDomain.slots[0].length);
   const primaryRand = RandomNum(3, 3);
 
@@ -77,6 +78,26 @@ async function create(): Promise<Number> {
   return id;
 }
 
+async function update(returnId: number) {
+  const exist = await BuildsRepository.checkExistence(returnId);
+  if (!exist)
+    throw Errors.DbError(httpStatus.NOT_FOUND, "Build id does not exist");
+
+  // Build
+  const build = await genBuild();
+  const serializedBuild = JSON.stringify(build, null, 2);
+
+  await BuildsRepository.update(returnId, serializedBuild);
+}
+
+async function del(id: number) {
+  const exist = await BuildsRepository.checkExistence(id);
+  if (!exist)
+    throw Errors.DbError(httpStatus.NOT_FOUND, "Build id does not exist");
+
+  await BuildsRepository.del(id);
+}
+
 async function read(id: number): Promise<Build> {
   const build = await BuildsRepository.read(id);
   return build;
@@ -86,4 +107,6 @@ export const BuildsService = {
   create,
   genBuild,
   read,
+  update,
+  del,
 };

@@ -17,9 +17,21 @@ async function read(req: Request, res: Response) {
   res.status(httpStatus.OK).send(build);
 }
 
-function update() {}
+async function update(req: Request, res: Response) {
+  const { id } = req.params as BuildRouteParams;
 
-function del() {}
+  await BuildsService.update(parseInt(id));
+
+  res.sendStatus(httpStatus.NO_CONTENT);
+}
+
+async function del(req: Request, res: Response) {
+  const { id } = req.params as BuildRouteParams;
+
+  await BuildsService.del(parseInt(id));
+
+  res.sendStatus(httpStatus.NO_CONTENT);
+}
 
 export const BuildsController = {
   create,
