@@ -1,47 +1,50 @@
 import { Build } from "../protocols";
-import { db } from "../database/database.connection";
+import Prisma from "../database/database.connection";
 import { Errors } from "../Errors/errors";
 import httpStatus from "http-status";
 
-async function create(serializedBuild: string) {
-  const result = await db.query<Number>(
-    `
-      INSERT INTO builds(data) 
-      VALUES ($1) RETURNING builds.id
-  `,
-    [serializedBuild]
-  );
+async function create(serializedBuild: string): Promise<number> {
+  const result = await Prisma.builds.create({
+    data: { data: serializedBuild },
+    select: { id: true },
+  });
 
-  return result.rows[0];
+  return result.id;
 }
 
 async function update(id: number, serializedBuild: string) {
-  await db.query(`UPDATE builds SET data = $1 WHERE id = $2`, [
-    serializedBuild,
-    id,
-  ]);
+  await Prisma.builds.update({
+    where: { id: id },
+    data: { data: serializedBuild },
+  });
 }
 
 async function read(id: number): Promise<Build> {
-  const result = await db.query<Build>(
-    `SELECT data FROM builds WHERE id = $1`,
-    [id]
-  );
+  const result = await Prisma.builds
+    .findUnique({
+      select: { data: true, id: true },
+      where: { id: id },
+    })
+    .catch(() => {
+      throw Errors.DbError(httpStatus.NOT_FOUND, "Build not found");
+    });
 
-  if (result.rowCount === 0)
-    throw Errors.DbError(httpStatus.NOT_FOUND, "Build not found");
-
-  return result.rows[0];
+  const build: Build = JSON.parse(result.data.toString());
+  return build;
 }
 
 async function checkExistence(id: number): Promise<boolean> {
-  const result = await db.query(`SELECT id FROM builds WHERE id = $1`, [id]);
+  const result = await Prisma.builds.findUnique({
+    where: { id: id },
+  });
 
-  return !(result.rowCount === 0);
+  return result.id !== undefined;
 }
 
 async function del(id: number) {
-  await db.query(`DELETE FROM builds WHERE id = $1`, [id]);
+  await Prisma.builds.delete({
+    where: { id: id },
+  });
 }
 
 export const BuildsRepository = {

@@ -1,0 +1,19 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model builds {
+  id   Int  @id @default(autoincrement())
+  data Json @db.Json
+}
+
+// model matches {
+//   id          Int    @id @default(autoincrement())
+//   build_id    Int
+//   player_name Int?
+// }
